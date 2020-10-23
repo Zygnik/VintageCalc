@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //This array will be used in case the textView should have pre-defined
+    //text sizes in the future for app:autoSizeTextType="uniform"
+    <array name="auto_size_text_sizes">
+        <item>6sp</item>
+        <item>10sp</item>
+        <item>16sp</item>
+        <item>18sp</item>
+        <item>22sp</item>
+        <item>26sp</item>
+        <item>30sp</item>
+        <item>34sp</item>
+        <item>38sp</item>
+        <item>45sp</item>
+    </array>
+
+</resources>
