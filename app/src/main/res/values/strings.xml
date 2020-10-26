@@ -24,5 +24,17 @@
     <string name="dot">.</string>
     <string name="equal">=</string>
 
-    <string name="divideByZero">Cannot divide by zero</string>
+    <string name="currencyConverterTitle">Currency Converter</string>
+    <string name="amount">Amount</string>
+    <string name="eur">EUR: Euro</string>
+    <string name="usd">USD: United States Dollar</string>
+    <string name="currencyFrom">From</string>
+    <string name="currencyTo">To</string>
+    <string name="Submit">Convert</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="emptyFieldWarning">Please provide an amount to be converted</string>
+    <string name="noInternetConnection">This functionality requires internet connection</string>
+    <string name="errorMessage2">Error on currencies database communication.</string>
+    <string name="errorMessage1">Failed to read latest currencies values.</string>
 </resources>
