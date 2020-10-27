@@ -7,7 +7,6 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
@@ -62,12 +61,9 @@ class CurrencyConverterDialog extends Dialog  implements View.OnClickListener {
             }
         });
         toTxtView = findViewById(R.id.toTxtView);
-        toTxtView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (hasFocus){
-                    hideSoftKeyboard();
-                }
+        toTxtView.setOnFocusChangeListener((v, hasFocus) -> {
+            if (hasFocus){
+                hideSoftKeyboard();
             }
         });
         submitBtn.setOnClickListener(this);
